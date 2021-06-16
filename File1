@@ -1,0 +1,10 @@
+Shoulddo a POC,Creat a VPC in AWS.
+Create two subnets one is public and the other one is private.
+create two instances in each subnet
+create a NAT Gateway and attach to private Subnet which implies the instance in private subnet to talk to internet
+Have Ansible and Git and Jenkins intsalled in Linux machine in an ec2 instance on subnet.
+Install tomcat in another Linux machine in the same subnet from Ansible controller machine
+Try to communicate from a machine in one subnet to a machine in another subnet
+hook Git and jenkins such that a check in made in one branch should auto run the build job in jenkins and store the file in nexus artifactory
+try to speak to Ganesh to undertsand the Ansible usga ein the entire cycle
+How Zabbix/cludwatch/Grafana/Zookeeper/Kafka are used
